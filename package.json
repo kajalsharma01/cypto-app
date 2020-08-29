@@ -1,0 +1,23 @@
+{
+  "name": "crypto-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "9.1.0",
+    "electron-reload": "^1.5.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "electron-builder": "^22.7.0"
+  },
+  "build": {
+    "appId": "com.electron.crypto-app"
+  }
+}
